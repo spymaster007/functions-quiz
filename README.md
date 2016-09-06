@@ -27,7 +27,7 @@ Follow this process for your quiz:
     A number is a teen if it is in the range 13 to 19 inclusive. Given three integers, return true if any of them are a teen.
 2. not_string
 
-    Given a string, return a new string where "not" has been added to the front. However, if the string already begins with "not" return the original string unchanged.
+    Given a string, return a new string where "not" has been added to the front. However, if the string already begins with "not" add the not to the end instead.
 3. icy_hot
 
     It is icy if a temperature is less than zero, and it is hot if a temperature is greater than 100. Given two temperatures, return true if either one is icy and the other is hot.
