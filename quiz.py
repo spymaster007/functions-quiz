@@ -15,7 +15,13 @@ print has_teen(1,1,19)
 print has_teen(13,1,1)
 print has_teen(13,13,19)
 # TODO - write not_string
-
+def not_string(str):
+	if str[:3] == "not":
+		return str + " not"
+	else:
+		return "not " + str
+print not_string("Tomato")
+print not_string("not Tomato")
 # TODO - write icy_hot
 
 # TODO - write closer_to
