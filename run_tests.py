@@ -59,34 +59,34 @@ class IcyHot(unittest.TestCase):
 
 class CloserTo(unittest.TestCase):
 
-	def test_a_closer(n, a, b):
+	def test_a_closer(self):
 		self.assertEqual(quiz.closer_to(10, 11, 12), 11)
 
-	def test_b_closer(n, a, b):
+	def test_b_closer(self):
 		self.assertEqual(quiz.closer_to(10, 12, 11), 11)
 
-	def test_equidistant(n, a, b):
+	def test_equidistant(self):
 		self.assertEqual(quiz.closer_to(10, 11, 11), 0)
 
-	def test_lower(n, a, b):
+	def test_lower(self):
 		self.assertEqual(quiz.closer_to(10, 8, 7), 8)
 
 
 class TwoAsOne(unittest.TestCase):
 
-	def test_ab_is_c(a, b, c):
+	def test_ab_is_c(self):
 		self.assertTrue(quiz.two_as_one(1, 2, 3))
 
-	def test_bc_is_a(a, b, c):
+	def test_bc_is_a(self):
 		self.assertTrue(quiz.two_as_one(5, 2, 3))
 
-	def test_ac_is_b(a, b, c):
+	def test_ac_is_b(self):
 		self.assertTrue(quiz.two_as_one(1, 4, 3))
 
-	def test_no_equals(a, b, c):
+	def test_no_equals(self):
 		self.assertFalse(quiz.two_as_one(1, 2, 4))
 
-	def test_same(a, b, c):
+	def test_same(self):
 		self.assertFalse(quiz.two_as_one(1, 1, 1))
 
 
