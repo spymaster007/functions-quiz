@@ -49,10 +49,18 @@ def closer_to(g,i1,i2):
 		return i1
 	elif abs(g-i1) > abs(g-i2):
 		return i2
-		
+
 print closer_to(1,2,3)
 print closer_to(1,2,2)
 print closer_to(1,3,2)
 # TODO - write two_as_one
-
+def two_as_one(v1,v2,v3):
+	if v1+v2==v3 or v3+v2==v1 or v1+v3==v2:
+		return True
+	else:
+		return False
+print two_as_one(1,2,3)
+print two_as_one(1,2,1)
+print two_as_one(1,2,5)
+print two_as_one(5,2,3)
 # TODO - write pig_latinify
