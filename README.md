@@ -10,15 +10,19 @@ Disconnect your computer from the internet.
 
 ## Quiz
 
-Follow this process for your quiz:
+Open `quiz.py`.
+
+Follow this process:
 
 1. Write the code to test a function first!
 2. Use the testing code to write the method.
 3. Commit with message "Implement method_name"
 4. Move on to the next method
-5. When all done, verify everything still works
+5. When all done, verify everything still works and there are no syntax errors.
+6. Your quiz **must** define each function, or the grading software will not work. Check that the function names and their number of arguments match the problem declarations exactly.
 6. Turn it in with:
     ```$ git push```
+7. Have a TA run the grading software and record your results.
 
 ## Functions to Implement
 
