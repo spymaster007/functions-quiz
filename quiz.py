@@ -9,7 +9,7 @@ def has_teen(a,b,c):
 		return True
 	else:
 		return False
-		
+
 print has_teen(1,13,1)
 print has_teen(1,1,1)
 print has_teen(1,1,19)
@@ -40,8 +40,19 @@ print icy_hot(-1,101)
 print icy_hot(1,10)
 print icy_hot(1,101)
 print icy_hot(-1,10)
-# TODO - write closer_to
 
+# TODO - write closer_to
+def closer_to(g,i1,i2):
+	if i1 == i2:
+		return 0
+	elif abs(g-i1) < abs(g-i2):
+		return i1
+	elif abs(g-i1) > abs(g-i2):
+		return i2
+		
+print closer_to(1,2,3)
+print closer_to(1,2,2)
+print closer_to(1,3,2)
 # TODO - write two_as_one
 
 # TODO - write pig_latinify
