@@ -21,9 +21,9 @@ print has_teen(13,13,19) #True
 
 def not_string(str):
 	if str[:3] == "not":
-		return str + " not"
+		return str + "not"
 	else:
-		return "not " + str
+		return "not" + str
 
 print not_string("Tomato") #not Tomato
 print not_string("not Tomato") #not Tomato not
